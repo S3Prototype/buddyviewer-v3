@@ -1,8 +1,18 @@
-.main {
-  background: none;
-}
+@media screen and (min-width: 480px) {
+  .main {
+  }
+  .content {
+    display: flex;
+    background: rgb(100, 100, 140, 0.5);
+    margin: 2vw;
+  }
 
-.player {
-  max-width: 1080px;
-  max-height: 720px;
+  .player {
+  }
+
+  .playerContainer {
+    background: rgb(100, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
 }
